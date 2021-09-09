@@ -1,0 +1,24 @@
+.middle{
+    position:relative;
+    top: 50%;
+    left: 50%;
+     width: 240px;
+    height: 280px;
+    transform: translate(-50%, -50%);
+
+}
+.card{
+    cursor: pointer;
+    /* width: 240px;
+    height: 280px; */
+} 
+
+.front,.back{
+    width: 240px;
+    height: 280px;
+    overflow: hidden;
+
+}
+.front img{
+    height: 100%;
+}
